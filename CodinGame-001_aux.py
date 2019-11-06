@@ -406,10 +406,10 @@ if __name__ == '__main__':
 
         if modes['show_mode'] == 3 or step == total_steps:
             break
-        key = input(r"Input 's' to stop or 'f' to skip to the last: ")
+        key = input(r"Input 'input_string' to stop or 'f' to skip to the last: ")
         if key == 'f' or (modes['show_mode'] == 1 and step == 1):
             skip = True
-        elif key == 's':
+        elif key == 'input_string':
             break
 
     # Minimal score is 2

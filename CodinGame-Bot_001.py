@@ -91,8 +91,8 @@ while True:
 
     # Current units' positions
     for i in range(num_of_units):
-        # unit_id: The unit's ID
-        # unit_type: The unit's type: 0 = Cultist, 1 = Cult Leader
+        # unit_id: The unit'input_string ID
+        # unit_type: The unit'input_string type: 0 = Cultist, 1 = Cult Leader
         # hp: Health points of the unit
         # x: X coordinate of the unit
         # y: Y coordinate of the unit
@@ -130,7 +130,7 @@ while True:
     print_array(world_map)
 
     # TODO Реализовать алгоритм Брезенхема для проверки препядствий для стрельбы
-    # (The path of bullets is calculated based on Bresenham's line algorithm,
+    # (The path of bullets is calculated based on Bresenham'input_string line algorithm,
     # always drawing the line from lower Y towards higher Y.)
 
     # TODO Реализовать стрельбу, если вражеский юнит в пределах досигаемости.

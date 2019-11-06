@@ -57,9 +57,9 @@ world_y = int(input())
 world_x = int(input())
 players_number = int(input())
 
-# List of all players' coordinates (last - current player's coordinates)
+# List of all players' coordinates (last - current player'input_string coordinates)
 players = [[] for i in range(players_number)]
-# What's on different sides from player
+# What'input_string on different sides from player
 sides = {}
 # List of directions
 directions = ('up', 'right', 'down', 'left')
@@ -83,13 +83,13 @@ while True:
     world_x /second_init_input/ - world size X
     players_number /third_init_input/ - number of players
 
-    sides - dict of what's on different sides from player
-    /first_input/ - what's on the up (-Y, 'C')
-    /second_input/ - what's on the right (+X, 'A')
-    /third_input/ - what's on the down (+Y, 'D')
-    /fourth_input/ - what's on the left (-X, 'E')
+    sides - dict of what'input_string on different sides from player
+    /first_input/ - what'input_string on the up (-Y, 'C')
+    /second_input/ - what'input_string on the right (+X, 'A')
+    /third_input/ - what'input_string on the down (+Y, 'D')
+    /fourth_input/ - what'input_string on the left (-X, 'E')
 
-    players - list of all players' coordinates (last - current player's coordinates)
+    players - list of all players' coordinates (last - current player'input_string coordinates)
     ###########################################
     Input meanings:
     _ - empty space
